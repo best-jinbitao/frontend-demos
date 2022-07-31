@@ -599,14 +599,14 @@ export default defineConfigWithTheme<ThemeConfig>({
     nav,
     sidebar,
 
-    algolia: {
-      indexName: 'vuejs',
-      appId: 'ML0LEBN7FQ',
-      apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
-      searchParameters: {
-        facetFilters: ['version:v3']
-      }
-    },
+    // algolia: {
+    //   indexName: 'vuejs',
+    //   appId: 'ML0LEBN7FQ',
+    //   apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
+    //   searchParameters: {
+    //     facetFilters: ['version:v3']
+    //   }
+    // },
 
     carbonAds: {
       code: 'CEBDT27Y',
@@ -630,7 +630,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: 'MIT License',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Copyright © 2014-${new Date().getFullYear()} Bitao Jin`
     }
   },
 

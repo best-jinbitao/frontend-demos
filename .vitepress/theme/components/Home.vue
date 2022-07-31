@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import NewsLetter from './NewsLetter.vue'
-import SponsorsGroup from './SponsorsGroup.vue';
 // NOTE: hide the home video
 // https://github.com/vuejs-translations/docs-zh-cn/issues/177
 // import VueMasteryModal from './VueMasteryModal.vue';
@@ -9,11 +7,10 @@ import SponsorsGroup from './SponsorsGroup.vue';
 <template>
   <section id="hero">
     <h1 class="tagline">
-      <span class="accent">渐进式</span>
-      <br />JavaScript 框架
+      <span class="accent">前端例库</span>
     </h1>
     <p class="description">
-      一款用于构建 Web 界面，易学易用，性能出色且功能丰富的框架。
+      汇总众多实例来帮助开发者迅速上手
     </p>
     <p class="actions">
       <!-- NOTE: hide the home video -->
@@ -32,56 +29,33 @@ import SponsorsGroup from './SponsorsGroup.vue';
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">安装</a>
     </p>
   </section>
 
   <!-- TODO make dynamic based on data -->
-  <section id="special-sponsor">
-    <span>特别赞助</span>
-    <a href="https://www.dcloud.io/hbuilderx.html?hmsr=vue-en&hmpl=&hmcu=&hmkw=&hmci=">
-      <picture>
-        <source type="image/avif" srcset="/images/sponsors/hbuilder.avif" />
-        <img
-          alt="hbuilder logo"
-          width="97"
-          height="36"
-          src="/images/sponsors/hbuilder.png"
-        />
-      </picture>
-    </a>
-    <span>为 Vue 打造的先进 IDE</span>
-  </section>
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>易学易用</h2>
+      <h2>目标</h2>
       <p>
-        基于标准 HTML、CSS 和 JavaScript 构建，拥有直观的 API 和世界一流的文档。
+        先用起来再说！原理或者写法，我们可以晚点研究明白！
       </p>
     </div>
     <div class="vt-box">
-      <h2>性能出色</h2>
+      <h2>类库</h2>
       <p>
-        经过编译器优化、完全响应式的渲染系统，几乎不需要手动优化。
+        动画，样式等多种库在React、Vue中的使用方法
       </p>
     </div>
     <div class="vt-box">
-      <h2>功能丰富</h2>
+      <h2>实例</h2>
       <p>
-        拥有丰富的、可渐进式集成的生态系统，可以根据规模在仅使用一个库和使用整套框架间切换自如。
+        汇总多种框架以及多种库的使用方法，方便开发者在新项目中迅速上手。看这一份文档，就够了！
       </p>
     </div>
   </section>
 
-  <section id="sponsors">
-    <h2>Platinum Sponsors</h2>
-    <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
-    <SponsorsGroup tier="gold" placement="landing" />
-  </section>
 
-  <NewsLetter />
 </template>
 
 <style scoped>
