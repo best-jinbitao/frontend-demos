@@ -2,15 +2,3 @@
 
 本项目计划提供罗列一些常用的js、css库并提供他们在原生js以及一些框架中的使用方法，便于各位同学迅速上手。
 
-
-```js
-const { containerPlugin } = require('@vuepress/plugin-container')
-
-module.exports = {
-  plugins: [
-    containerPlugin({
-      // 配置项
-    }),
-  ],
-}
-```
