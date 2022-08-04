@@ -34,12 +34,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: '指引',
         link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
       },
       {
         text: 'Css',
@@ -53,11 +49,31 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: '指引',
           collapsable: false,
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/css/': [
+        {
+          title: '总览',
+          collapsable: false,
+          children: [
+            '',
+            'using-vue',
+          ]
+        }
+      ],
+      '/js/': [
+        {
+          title: '总览',
+          collapsable: false,
+          children: [
+            '',
+            'vue'
           ]
         }
       ],
