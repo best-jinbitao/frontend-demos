@@ -63,7 +63,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'list',
+            'styled-components'
           ]
         }
       ],
