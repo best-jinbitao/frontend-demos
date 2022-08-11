@@ -74,7 +74,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'vue'
+            'vue',
+            'react'
           ]
         }
       ],
