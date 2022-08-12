@@ -46,6 +46,7 @@ module.exports = {
         link: '/js/'
       }
     ],
+    sidebarDepth:3,
     sidebar: {
       '/guide/': [
         {
@@ -75,7 +76,8 @@ module.exports = {
           children: [
             '',
             'vue',
-            'react'
+            'react',
+            'lodash'
           ]
         }
       ],
