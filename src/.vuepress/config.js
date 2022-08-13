@@ -54,30 +54,33 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'link',
           ]
         }
       ],
       '/css/': [
         {
-          title: '总览',
+          title: 'CSS库',
           collapsable: false,
           children: [
             '',
-            'list',
-            'styled-components'
+            'css-Preprocessor'
           ]
         }
       ],
       '/js/': [
         {
-          title: '总览',
+          title: 'JS库',
           collapsable: false,
           children: [
             '',
-            'vue',
-            'react',
-            'lodash'
+            'tool',
+            'domJs',
+            'file',
+            'http',
+            'anime',
+            'computer',
+            'image'
           ]
         }
       ],
