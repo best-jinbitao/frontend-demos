@@ -85,7 +85,11 @@ module.exports = {
             'http',
             'anime',
             'computer',
-            'image'
+            'image',
+            'build',
+            'compiled',
+            'lint',
+            'test'
           ]
         }
       ],
