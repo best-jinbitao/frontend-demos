@@ -87,7 +87,7 @@ module.exports = {
             'computer',
             'image',
             'build',
-            'compiled',
+            'compile',
             'lint',
             'test'
           ]
