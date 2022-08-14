@@ -44,7 +44,12 @@ module.exports = {
       {
         text: 'Js',
         link: '/js/'
-      }
+      },
+      {
+        text: 'nodejs',
+        link: '/nodejs/'
+      },
+
     ],
     sidebarDepth:3,
     sidebar: {
@@ -81,6 +86,15 @@ module.exports = {
             'anime',
             'computer',
             'image'
+          ]
+        }
+      ],
+      '/nodejs/': [
+        {
+          title: 'nodejs',
+          collapsable: false,
+          children: [
+            ''
           ]
         }
       ],
