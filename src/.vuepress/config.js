@@ -81,6 +81,7 @@ module.exports = {
             '',
             'tool',
             'domJs',
+            'frame',
             'file',
             'http',
             'anime',
@@ -101,6 +102,19 @@ module.exports = {
           collapsable: false,
           children: [
             ''
+          ]
+        }
+      ],
+      '/frame/': [
+        {
+          title: '框架',
+          collapsable: false,
+          children: [
+            '',
+            'vue',
+            'react',
+            'angular'
+            
           ]
         }
       ],
