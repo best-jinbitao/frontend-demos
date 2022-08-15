@@ -8,4 +8,10 @@
 
 ## big.js
 
+## Highlight.js
+
+## Moment
+
 ## qs
+
+## Validator.js

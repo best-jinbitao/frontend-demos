@@ -88,8 +88,10 @@ module.exports = {
             'image',
             'build',
             'compile',
+            'color',
+            'machine-learn',
             'lint',
-            'test'
+            'test',
           ]
         }
       ],

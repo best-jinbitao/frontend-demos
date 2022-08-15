@@ -13,6 +13,12 @@
 
 ## Fabric.js
 
+## D3
+
+## Three.js
+
+## Chart.js
+
 ## merge-images
 
 ## corpperjs
