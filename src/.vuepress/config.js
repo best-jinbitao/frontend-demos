@@ -49,6 +49,10 @@ module.exports = {
         text: 'nodejs',
         link: '/nodejs/'
       },
+      {
+        text: '框架',
+        link: '/frame/'
+      },
 
     ],
     sidebarDepth:3,
