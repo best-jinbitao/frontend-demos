@@ -97,6 +97,7 @@ module.exports = {
             'machine-learn',
             'lint',
             'test',
+            'ast'
           ]
         }
       ],
