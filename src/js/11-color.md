@@ -9,9 +9,6 @@ JavaScript 颜色生成器。
 
 拥有各种各样颜色操作的 JavaScript 库。
 
-## color：JavaScript
-
-颜色转换和操作库。colors：更智能的默认 web 颜色。
 
 ## PleaseJS
 

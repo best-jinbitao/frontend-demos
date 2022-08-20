@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "Bitao Jin",
+    "email": "295894399@qq.com"
   },
   "repository": "/learnFrontend",
   "scripts": {
@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "echarts": "^5.3.3"
   }
 }
