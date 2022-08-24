@@ -50,6 +50,10 @@ module.exports = {
         link: '/nodejs/'
       },
       {
+        text: '有趣的项目',
+        link: '/funny/'
+      },
+      {
         text: '框架',
         link: '/frame/'
       },
@@ -127,6 +131,9 @@ module.exports = {
           ]
         }
       ],
+      '/funny/':[
+        ''
+      ]
     }
   },
 
