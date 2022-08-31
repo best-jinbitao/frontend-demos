@@ -133,6 +133,9 @@ module.exports = {
       ],
       '/funny/':[
         ''
+      ],
+      '/project/':[
+        ''
       ]
     }
   },
