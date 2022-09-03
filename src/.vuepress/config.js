@@ -54,6 +54,10 @@ module.exports = {
         link: '/funny/'
       },
       {
+        text: '学习项目',
+        link: '/learn/'
+      },
+      {
         text: '框架',
         link: '/frame/'
       },
@@ -132,6 +136,9 @@ module.exports = {
         }
       ],
       '/funny/':[
+        ''
+      ],
+      '/learn/':[
         ''
       ],
       '/project/':[
